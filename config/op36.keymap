@@ -57,28 +57,28 @@
 
         base {
             bindings = <
-  &kp Q        &kp W        &kp E         &kp R          &kp T                          &kp Y  &kp U         &kp I         &kp O        &kp P
-  &hml LGUI A  &hml LALT S  &hml LSHFT D  &hml LCTRL F   &kp G                          &kp H  &hmr RCTRL J  &hmr RSHFT K  &hmr LALT L  &hmr RGUI SEMICOLON
-  &kp Z        &kp X        &kp C         &kp V          &kp B                          &kp N  &kp M         &kp COMMA     &kp DOT      &kp SQT
-                                          &kp BACKSPACE  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
+  &kp Q                &kp W        &kp E         &kp R                &kp T                          &kp Y  &kp U          &kp I         &kp O        &kp P
+  &hml LEFT_CONTROL A  &hml LALT S  &hml LSHFT D  &hml LEFT_COMMAND F  &kp G                          &kp H  &hmr RCMD J    &hmr RSHFT K  &hmr LALT L  &hmr RCTRL SEMICOLON
+  &kp Z                &kp X        &kp C         &kp V                &kp B                          &kp N  &kp M          &kp COMMA     &kp DOT      &kp SQT
+                                                  &kp LCMD             &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp BACKSPACE
             >;
         };
 
         nav {
             bindings = <
-  &kp N1         &kp N2    &kp N3     &kp N4     &kp N5                        &kp N6           &kp N7           &kp N8           &kp N9        &kp N0
-  &hml LGUI ESC  &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER                     &kp PRINTSCREEN  &hmr RCTRL LEFT  &hmr RSHFT DOWN  &hmr LALT UP  &hmr RGUI RIGHT
-  &none          &kp HOME  &kp INS    &kp END    &kp DELETE                    &kp CAPS         &none            &kp PG_DN        &kp PG_UP     &none
-                                      &trans     &trans      &trans    &trans  &mo 3            &trans
+  &kp ESC  &kp N7  &kp N8  &kp N9  &kp N5                           &kp N6          &kp N7        &kp N8          &kp N9               &kp LEFT_BRACKET
+  &kp TAB  &kp N4  &kp N5  &kp N6  &kp LG(SPACE)                    &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT            &kp RIGHT_BRACKET
+  &kp N0   &kp N1  &kp N2  &kp N3  &kp DELETE                       &kp LA(LEFT)    &kp HOME      &kp END         &kp LA(RIGHT_ARROW)  &kp BACKSLASH
+                           &trans  &trans         &trans    &trans  &mo 3           &trans
             >;
         };
 
         sym {
             bindings = <
-  &none           &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                    &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &none
-  &hml LGUI BSLH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
-  &kp HASH        &kp STAR        &kp COLON         &kp FSLH         &none                        &none      &kp PIPE         &kp TILDE        &kp AMPS        &kp DLLR
-                                                    &trans           &mo 3      &trans    &trans  &trans     &trans
+  &kp EXCLAMATION  &kp LT         &kp EQUAL          &kp GT        &kp QUESTION                    &kp TILDE      &kp LBKT              &kp UNDER      &kp RBKT               &kp CARET
+  &kp PERCENT      &kp SLASH      &kp MINUS          &kp ASTERISK  &kp PLUS                        &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp COLON      &kp RIGHT_PARENTHESIS  &kp DOLLAR
+  &kp AT_SIGN      &kp BACKSLASH  &kp DOUBLE_QUOTES  &kp HASH      &kp SQT                         &kp PIPE       &kp LEFT_BRACE        &kp SEMICOLON  &kp RIGHT_BRACE        &kp GRAVE
+                                                     &trans        &mo 3         &trans    &trans  &trans         &trans
             >;
         };
 
